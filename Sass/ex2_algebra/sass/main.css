@@ -1,0 +1,51 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+div {
+  padding: 8%;
+  position: relative;
+  top: -80vh;
+  flex-basis: 25%;
+  flex-shrink: 1;
+  flex-grow: 0;
+  font-size: 5vw;
+  color: white;
+  border: 2px solid white;
+  text-align: center;
+}
+
+div:nth-child(1) {
+  background-color: rgba(128, 128, 128, 0.4);
+  animation: padaj 2s ease-in 1s forwards;
+}
+
+div:nth-child(2) {
+  background-color: rgba(255, 0, 0, 0.4);
+  animation: padaj 2s ease-in 2s forwards;
+}
+
+div:nth-child(3) {
+  background-color: rgba(255, 255, 0, 0.4);
+  animation: padaj 2s ease-in 3s forwards;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_859%2Cw_1528&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F891001168%2Fe79960e75be653e107a57de088ea3859%2Fblur_clean.jpg");
+  background-size: cover;
+}
+
+@keyframes padaj {
+  100% {
+    top: 0px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
